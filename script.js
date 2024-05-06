@@ -8,7 +8,7 @@ const romanNumerals = [
     ['I', 1]
 ];
 
-function decimalToRoman(num) {
+function convertToRoman(num) {
     let result = '';
     // Iterate through the romanNumerals array
     for (let i = 0; i < romanNumerals.length; i++) {
